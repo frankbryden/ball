@@ -33,6 +33,11 @@ public class Circle extends Shape{
 	}
 	
 	@Override
+	public void setPosition(Vector2d position) {
+		this.position = position;
+	}
+	
+	@Override
 	public String toString(){
 		return "Circle at (" + this.position.x + "; " + this.position.y + ")";
 	}

@@ -10,5 +10,6 @@ public abstract class Shape implements Drawable{
 	public Color getColor() {return color;}
 	public void setColor(Color color) {this.color = color;}
 	public abstract Vector2d getPosition();
+	public abstract void setPosition(Vector2d position);
 	protected abstract void setDimensions(int[] dimensions);
 }

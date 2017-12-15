@@ -29,6 +29,11 @@ public class Rect extends Shape{
 		return this.position;
 	}
 	
+	@Override
+	public void setPosition(Vector2d position) {
+		this.position = position;
+	}
+	
 	public void setDimensions(Vector2d dimensions) {
 		this.dimensions = dimensions;
 	}
